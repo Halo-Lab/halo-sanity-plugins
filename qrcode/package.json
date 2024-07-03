@@ -1,0 +1,55 @@
+{
+  "name": "sanity-qr-code-generator",
+  "version": "1.1.0",
+  "type": "module",
+  "description": "QR code generator component for the Sanity v3",
+  "keywords": [
+    "sanity",
+    "sanity-plugin",
+    "qr-code",
+    "react-qr"
+  ],
+  "homepage": "https://github.com/Halo-Lab/halo-sanity-plugins#readme",
+  "bugs": {
+    "url": "https://github.com/Halo-Lab/halo-sanity-plugins/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Halo-Lab/halo-sanity-plugins.git"
+  },
+  "license": "MIT",
+  "author": "Ihor Bozhuk <ihor.b@halo-lab.team>",
+  "contributors": [
+    {
+      "name": "Yevhen Kapelianovych",
+      "email": "eugene.k@halo-lab.team"
+    }
+  ],
+  "exports": {
+    ".": {
+      "source": "./src/index.ts",
+      "import": "./dist/index.esm.js",
+      "require": "./dist/index.cjs",
+      "default": "./dist/index.esm.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "dist",
+    "sanity.json",
+    "src",
+    "v2-incompatible.js"
+  ],
+  "scripts": {
+    "build": "pkg build",
+    "watch": "pkg watch",
+    "prepublishOnly": "npm run build"
+  },
+  "dependencies": {
+    "@sanity/incompatible-plugin": "^1.0.4",
+    "react-qr-code": "^2.0.15"
+  },
+  "peerDependencies": {
+    "sanity": "^3"
+  }
+}
