@@ -83,11 +83,11 @@ defineField({
 
 1. The plugin requires manually entering a value to encode.
 
-<img width="900" alt="QR generator plugin in use" src="https://raw.githubusercontent.com/Halo-Lab/sanity-qr-code-generator-plugin/main/assets/qrcode-manual-generation.png">
+<img width="900" alt="QR generator plugin in use" src="https://raw.githubusercontent.com/Halo-Lab/halo-sanity-plugins/main/assets/qrcode-manual-generation.png">
 
 2. The plugin automatically gets a value from the document.
 
-<img width="900" alt="QR generator plugin in use" src="https://raw.githubusercontent.com/Halo-Lab/sanity-qr-code-generator-plugin/main/assets/qrcode-automatic-generation.png">
+<img width="900" alt="QR generator plugin in use" src="https://raw.githubusercontent.com/Halo-Lab/halo-sanity-plugins/main/assets/qrcode-automatic-generation.png">
 
 ## Word from author
 
