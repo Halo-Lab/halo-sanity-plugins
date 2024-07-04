@@ -26,6 +26,7 @@ coverage/
 # Misc
 .DS_Store
 *.pem
+.npmrc
 
 # Typescript
 *.tsbuildinfo
